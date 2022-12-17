@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+}
+ul li{
+    display: inline-block;
+    margin-right:20px;
+    font-size: 24px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.company-name{
+    margin-left: 15px;
+    font-size: 24px;
+}
+.about-right-image img{
+    height: 90vh;
+    width: 38vw;
+}
+h3{
+    font-size: 64px;
+}
+.about-left-div p{
+    width: 45vw;
+    margin: 3vh auto;
+    font-size: 24px;
+    font-weight: 300;
+}
+.about-left-div button{
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    font-size: 24px;
+}
+.about-company{
+    margin: 3% 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.items img{
+    width: 25vw;
+    height: 45vh;
+}
+.products{
+    margin: 3% 4%;
+}
+.products-heading{
+    margin-bottom: 3%;
+}
+.items{
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+.items img{
+    margin-bottom: 5vh;
+}
+.items img:hover{
+    border: 2px solid black;
+}
